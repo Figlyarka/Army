@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Army
 {
-    // в задании 14 мы сделали класс Serviceman IComparable
-    public class Serviceman : IComparable<Serviceman>
+    
+    public class Serviceman 
     {
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -30,7 +30,6 @@ namespace Army
             NumMillitaryTicket = numMillitaryTicket;
         }
 
-        // В 13 задании мы сделали метод GetInfo() виртуальным.
         public virtual string GetInfo()
         {
             var typeofservice = "";
