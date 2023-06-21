@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Army
 {
     
-    public class Serviceman 
+    public class Serviceman : IComparable<Serviceman>
     {
         public string Name { get; set; }
         public string Surname { get; set; }
